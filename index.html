@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clara Belens | Game Dev Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Fira+Code:wght@400;500&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .font-mono { font-family: 'Fira Code', monospace; }
+    </style>
+</head>
+<body class="bg-[#050505] text-white selection:bg-purple-500">
+
+    <nav class="fixed w-full z-50 bg-[#050505]/80 backdrop-blur-md border-b border-white/10">
+        <div class="max-w-7xl mx-auto px-6 h-16 flex justify-between items-center">
+            <span class="font-mono text-purple-500 font-bold tracking-tighter">Clara_Belens_PORTFOLIO>_</span>
+            <div class="hidden md:flex gap-8 text-xs uppercase tracking-widest text-gray-400">
+                <a href="#sobre" class="hover:text-white transition">About Me</a>
+                <a href="#educacao" class="hover:text-white transition">Education</a>
+                <a href="#projetos" class="hover:text-white transition">Projects</a>
+                <a href="#contato" class="hover:text-white transition">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="relative h-screen flex items-center justify-center overflow-hidden">
+        <img src="sun.jpg" alt="menuJogoTrapiche" class="absolute inset-0 w-full h-full object-cover opacity-40">
+        
+        <div class="absolute inset-0 bg-gradient-to-t from-[#050505] via-transparent to-transparent"></div>
+
+        <div class="relative z-10 text-center px-6">
+            <h1 class="text-8xl md:text-9xl font-black italic tracking-tighter uppercase leading-none">
+                Portfolio <span class="text-purple-600 italic"><br>Clara Belens</span>
+            </h1>
+            <p class="mt-6 text-xl md:text-2xl font-mono text-gray-400">
+                // Game Design & Graphic Design
+            </p>
+            <div class="mt-10 flex gap-4 justify-center">
+                <a href="#sobre" class="border border-white/20 px-8 py-3 font-bold uppercase text-sm hover:bg-white/10 transition">About me</a>
+                <a href="#educacao" class="bg-white text-black px-8 py-3 font-bold uppercase text-sm hover:bg-purple-600 hover:text-white transition">Education</a>
+                <a href="#projetos" class="border border-white/20 px-8 py-3 font-bold uppercase text-sm hover:bg-white/10 transition">Projects</a>
+                <a href="#contato" class="bg-white text-black px-8 py-3 font-bold uppercase text-sm hover:bg-purple-600 hover:text-white transition">Contact</a>
+                
+            </div>
+        </div>
+    </header>
+   <section id="sobre" class="max-w-7xl mx-auto px-6 py-20">
+    <h2 class="text-4xl font-black uppercase mb-0 italic border-l-4 border-purple-600 pl-4 text-white">
+        ABOUT ME
+    </h2>
+
+    <div class="flex flex-col md:flex-row gap-12 items-center">
+        
+        <div class="flex-1">
+            <h2 class="text-2xl font-black uppercase mb-2">
+                Hello &nbsp; world! 
+                <span class="text-5xl block font-black uppercase text-purple-600">I'M &nbsp; CLARA</span> 
+            </h2>
+            
+            <div class="text-gray-400 mt-6">
+                <p class="leading-relaxed">
+                   Art has been part of my life for as long as I can remember—drawing, filmmaking, and photography have always been my favorite ways to express myself. When it came time to choose a career, I knew I wanted a path that merged creativity with technology.
+
+Currently, I am a Game Design student at IFBA and specializing in Graphic Design at SAGA. My mission is to build a solid career by blending technical skill, innovation, and artistic sensitivity to create impactful visual experiences.
+
+I’m dedicated to crafting bold designs and immersive games that truly stand out.
+                </p>
+                
+            </div>
+        </div>
+
+        <div class="flex-1 flex justify-center">
+            
+                
+                <img src="MinhaFoto.png" alt="Clara" 
+            
+        </div>
+
+    </div>
+</section>
+
+<section id="projetos" class="max-w-7xl mx-auto px-6 py-20">
+    <h2 class="text-4xl font-black uppercase mb-12 italic border-l-4 border-purple-600 pl-4 text-white">
+        My Projects
+    </h2>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        
+        <div class="group bg-zinc-900 border border-white/5 rounded-2xl overflow-hidden hover:border-purple-500/50 transition-all shadow-xl">
+            <div class="aspect-video bg-black relative">
+                <img src="menu_jogo_pi.png" 
+                     alt="Menu do Jogo Trapiche" 
+                     class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition duration-500">
+            </div>
+
+            <div class="p-8">
+                <h3 class="text-2xl font-bold text-white uppercase">Game: Trapiche: Ecos Das Ruas</h3>
+                <p class="text-gray-400 mt-4 leading-relaxed">
+                    [Descreva aqui o seu papel no projeto. Ex: Desenvolvedora principal e designer de som.]
+                </p>
+
+                <div class="mt-6 flex flex-wrap gap-2">
+                    <span class="text-[10px] font-mono border border-white/20 px-2 py-1 rounded text-gray-400">UNITY</span>
+                    <span class="text-[10px] font-mono border border-white/20 px-2 py-1 rounded text-gray-400">C#</span>
+                    <span class="text-[10px] font-mono border border-white/20 px-2 py-1 rounded text-gray-400">PHOTOSHOP</span>
+                    <span class="text-[10px] font-mono border border-white/20 px-2 py-1 rounded text-gray-400">FIGMA</span>
+                    <span class="text-[10px] font-mono border border-white/20 px-2 py-1 rounded text-gray-400">VEGAS PRO</span>
+                </div>
+            </div>
+        </div>
+        </div> </section>
+
+    <footer id="contato" class="bg-zinc-900 py-20 mt-20 border-t border-white/5">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <h2 class="text-3xl font-black uppercase mb-4">Let's create something extraordinary?</h2>
+            <p class="text-gray-400 mb-8">Available for new projects and collaborations.</p>
+            <div class="flex justify-center gap-6">
+              <a href="https://www.instagram.com/diary.of.games_?igsh=bGdpeThkcWZheTZo&utm_source=qr" 
+   target="_blank" 
+   class="mt-12 text-[20px] text-white  tracking-[0.3em] hover:text-purple-500 transition-colors">
+   Instagram
+</a>
+               <a href="https://www.linkedin.com/in/clara-belens-193271366/" 
+   target="_blank" 
+   class="mt-12 text-[20px] text-white  tracking-[0.3em] hover:text-purple-500 transition-colors">
+   LinkedIn
+</a>
+            </div>
+
+            <p class="mt-12 text-[15px] text-white  tracking-[0.3em] ">Contact me:</p>
+            <p class="text-gray-400 mb-8">E-mail : clarabelens485@gmail.com // Number phone: +55 (71) 999840301</p>
+        
+            <p class="mt-12 text-[12px] text-zinc-600 uppercase tracking-[0.3em]">© 2026 Clara Belens - Built with Code</p>
+        </div>
+    </footer>
+
+</body>
+</html>
